@@ -5,46 +5,45 @@ local CloseButton = Instance.new("ImageButton")
 local UIGradient = Instance.new("UIGradient")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local METAB6 = Instance.new("ImageButton")
-local LineBottom = Instance.new("Frame")
-local LineTop = Instance.new("Frame")
-local Button8 = Instance.new("ImageButton")
 local BtnText = Instance.new("TextLabel")
-local UICorner = Instance.new("UICorner")
-local METAB5 = Instance.new("ImageButton")
-local LineBottom_2 = Instance.new("Frame")
-local LineTop_2 = Instance.new("Frame")
-local Button8_2 = Instance.new("ImageButton")
-local BtnText_2 = Instance.new("TextLabel")
-local UICorner_2 = Instance.new("UICorner")
-local UICorner_3 = Instance.new("UICorner")
-local METAB4 = Instance.new("ImageButton")
-local LineBottom_3 = Instance.new("Frame")
-local LineTop_3 = Instance.new("Frame")
-local Button8_3 = Instance.new("ImageButton")
-local BtnText_3 = Instance.new("TextLabel")
-local UICorner_4 = Instance.new("UICorner")
-local METAB3 = Instance.new("ImageButton")
-local LineBottom_4 = Instance.new("Frame")
-local LineTop_4 = Instance.new("Frame")
-local Button8_4 = Instance.new("ImageButton")
-local BtnText_4 = Instance.new("TextLabel")
-local UICorner_5 = Instance.new("UICorner")
-local METAB2 = Instance.new("ImageButton")
-local LineBottom_5 = Instance.new("Frame")
-local LineTop_5 = Instance.new("Frame")
-local Button8_5 = Instance.new("ImageButton")
-local BtnText_5 = Instance.new("TextLabel")
-local UICorner_6 = Instance.new("UICorner")
-local METAB1 = Instance.new("ImageButton")
-local LineBottom_6 = Instance.new("Frame")
-local LineTop_6 = Instance.new("Frame")
-local Button8_6 = Instance.new("ImageButton")
-local BtnText_6 = Instance.new("TextLabel")
-local UICorner_7 = Instance.new("UICorner")
-local METABHUB_2 = Instance.new("ImageButton")
-local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 local UIGradient_2 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local METAB5 = Instance.new("ImageButton")
+local BtnText_2 = Instance.new("TextLabel")
+local BtnText_3 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local BtnText_4 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_5 = Instance.new("UIGradient")
+local BtnText_5 = Instance.new("TextLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local BtnText_6 = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local METAB4 = Instance.new("ImageButton")
 local BtnText_7 = Instance.new("TextLabel")
+local UIGradient_8 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local METAB3 = Instance.new("ImageButton")
+local BtnText_8 = Instance.new("TextLabel")
+local UIGradient_9 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local METAB2 = Instance.new("ImageButton")
+local BtnText_9 = Instance.new("TextLabel")
+local UIGradient_10 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local METAB1 = Instance.new("ImageButton")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_11 = Instance.new("UIGradient")
+local BtnText_10 = Instance.new("TextLabel")
+local METABHUB_2 = Instance.new("ImageButton")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_12 = Instance.new("UIGradient")
+local BtnText_11 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -56,9 +55,10 @@ METABIMAGE.Name = "METABIMAGE"
 METABIMAGE.Parent = METABHUB
 METABIMAGE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 METABIMAGE.BackgroundTransparency = 1.000
+METABIMAGE.BorderSizePixel = 100
 METABIMAGE.Position = UDim2.new(0.26924789, 0, 0.205787718, 0)
 METABIMAGE.Size = UDim2.new(0, 630, 0, 365)
-METABIMAGE.Image = "http://www.roblox.com/asset/?id=7788975168"
+METABIMAGE.Image = "http://www.roblox.com/asset/?id=8381627778"
 
 CloseButton.Name = "CloseButton"
 CloseButton.Parent = METABIMAGE
@@ -84,55 +84,31 @@ METAB6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 METAB6.BackgroundTransparency = 1.000
 METAB6.Position = UDim2.new(0.64920634, 0, 0.572096884, 0)
 METAB6.Size = UDim2.new(0, 123, 0, 82)
-METAB6.Image = "http://www.roblox.com/asset/?id=7795937099"
-METAB6.ImageTransparency = 1.000
-
-LineBottom.Name = "LineBottom"
-LineBottom.Parent = METAB6
-LineBottom.AnchorPoint = Vector2.new(0.5, 0.5)
-LineBottom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineBottom.BackgroundTransparency = 1.000
-LineBottom.BorderSizePixel = 0
-LineBottom.Position = UDim2.new(0.499500483, 0, 0.999000013, 0)
-LineBottom.Size = UDim2.new(0, 0, 0, 1)
-
-LineTop.Name = "LineTop"
-LineTop.Parent = METAB6
-LineTop.AnchorPoint = Vector2.new(0.5, 0.5)
-LineTop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineTop.BackgroundTransparency = 1.000
-LineTop.BorderSizePixel = 0
-LineTop.Position = UDim2.new(0.499500483, 0, 0.00100000005, 0)
-LineTop.Size = UDim2.new(0, 0, 0, 1)
-
-Button8.Name = "Button8"
-Button8.Parent = METAB6
-Button8.AnchorPoint = Vector2.new(0.5, 0.5)
-Button8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button8.BackgroundTransparency = 1.000
-Button8.Position = UDim2.new(0.483739853, 0, 0.501469254, 0)
-Button8.Size = UDim2.new(0, 122, 0, 83)
-Button8.Image = "http://www.roblox.com/asset/?id=7796648161"
-Button8.SliceCenter = Rect.new(4, 4, 252, 252)
+METAB6.Image = "http://www.roblox.com/asset/?id=7796648161"
 
 BtnText.Name = "BtnText"
-BtnText.Parent = Button8
+BtnText.Parent = METAB6
 BtnText.AnchorPoint = Vector2.new(0.5, 0.5)
 BtnText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BtnText.BackgroundTransparency = 1.000
 BtnText.BorderSizePixel = 0
 BtnText.Position = UDim2.new(0.501231551, 0, 0.5, 0)
 BtnText.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText.Visible = false
 BtnText.Font = Enum.Font.GothamBlack
-BtnText.Text = ""
+BtnText.Text = "CLICK!"
 BtnText.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnText.TextScaled = true
 BtnText.TextSize = 14.000
-BtnText.TextTransparency = 1.000
 BtnText.TextWrapped = true
 
-UICorner.CornerRadius = UDim.new(0, 5)
-UICorner.Parent = Button8
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_2.Offset = Vector2.new(-0.400000006, 0)
+UIGradient_2.Rotation = -135
+UIGradient_2.Parent = METAB6
+
+UIAspectRatioConstraint_2.Parent = METAB6
+UIAspectRatioConstraint_2.AspectRatio = 1.500
 
 METAB5.Name = "METAB 5"
 METAB5.Parent = METABIMAGE
@@ -140,58 +116,127 @@ METAB5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 METAB5.BackgroundTransparency = 1.000
 METAB5.Position = UDim2.new(0.403174639, 0, 0.571987212, 0)
 METAB5.Size = UDim2.new(0, 122, 0, 83)
-METAB5.Image = "http://www.roblox.com/asset/?id=7795896413"
-METAB5.ImageTransparency = 1.000
-
-LineBottom_2.Name = "LineBottom"
-LineBottom_2.Parent = METAB5
-LineBottom_2.AnchorPoint = Vector2.new(0.5, 0.5)
-LineBottom_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineBottom_2.BackgroundTransparency = 1.000
-LineBottom_2.BorderSizePixel = 0
-LineBottom_2.Position = UDim2.new(0.499500483, 0, 0.999000013, 0)
-LineBottom_2.Size = UDim2.new(0, 0, 0, 1)
-
-LineTop_2.Name = "LineTop"
-LineTop_2.Parent = METAB5
-LineTop_2.AnchorPoint = Vector2.new(0.5, 0.5)
-LineTop_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineTop_2.BackgroundTransparency = 1.000
-LineTop_2.BorderSizePixel = 0
-LineTop_2.Position = UDim2.new(0.499500483, 0, 0.00100000005, 0)
-LineTop_2.Size = UDim2.new(0, 0, 0, 1)
-
-Button8_2.Name = "Button8"
-Button8_2.Parent = METAB5
-Button8_2.AnchorPoint = Vector2.new(0.5, 0.5)
-Button8_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button8_2.BackgroundTransparency = 1.000
-Button8_2.Position = UDim2.new(0.491803229, 0, 0.48866266, 0)
-Button8_2.Size = UDim2.new(0, 122, 0, 83)
-Button8_2.Image = "http://www.roblox.com/asset/?id=7824606118"
-Button8_2.SliceCenter = Rect.new(4, 4, 252, 252)
+METAB5.Image = "http://www.roblox.com/asset/?id=7824606118"
 
 BtnText_2.Name = "BtnText"
-BtnText_2.Parent = Button8_2
+BtnText_2.Parent = METAB5
 BtnText_2.AnchorPoint = Vector2.new(0.5, 0.5)
 BtnText_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_2.BackgroundTransparency = 1.000
 BtnText_2.BorderSizePixel = 0
 BtnText_2.Position = UDim2.new(0.501231551, 0, 0.5, 0)
 BtnText_2.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText_2.Visible = false
 BtnText_2.Font = Enum.Font.GothamBlack
-BtnText_2.Text = ""
+BtnText_2.Text = "CLICK!"
 BtnText_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_2.TextScaled = true
 BtnText_2.TextSize = 14.000
-BtnText_2.TextTransparency = 1.000
 BtnText_2.TextWrapped = true
 
-UICorner_2.CornerRadius = UDim.new(0, 5)
-UICorner_2.Parent = Button8_2
+BtnText_3.Name = "BtnText"
+BtnText_3.Parent = BtnText_2
+BtnText_3.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_3.BackgroundTransparency = 1.000
+BtnText_3.BorderSizePixel = 0
+BtnText_3.Position = UDim2.new(0.501231551, 0, 0.5, 0)
+BtnText_3.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText_3.Visible = false
+BtnText_3.Font = Enum.Font.GothamBlack
+BtnText_3.Text = "CLICK!"
+BtnText_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_3.TextScaled = true
+BtnText_3.TextSize = 14.000
+BtnText_3.TextWrapped = true
 
-UICorner_3.CornerRadius = UDim.new(0, 5)
-UICorner_3.Parent = UICorner_2
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_3.Offset = Vector2.new(-0.400000006, 0)
+UIGradient_3.Rotation = -135
+UIGradient_3.Parent = BtnText_2
+
+UIAspectRatioConstraint_3.Parent = BtnText_2
+UIAspectRatioConstraint_3.AspectRatio = 1.500
+
+BtnText_4.Name = "BtnText"
+BtnText_4.Parent = game.StarterGui.METAB HUB.METABIMAGE["METAB 5"]["Button7Script"]
+BtnText_4.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_4.BackgroundTransparency = 1.000
+BtnText_4.BorderSizePixel = 0
+BtnText_4.Position = UDim2.new(0.501231551, 0, 0.5, 0)
+BtnText_4.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText_4.Visible = false
+BtnText_4.Font = Enum.Font.GothamBlack
+BtnText_4.Text = "CLICK!"
+BtnText_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_4.TextScaled = true
+BtnText_4.TextSize = 14.000
+BtnText_4.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_4.Offset = Vector2.new(-0.400000006, 0)
+UIGradient_4.Rotation = -135
+UIGradient_4.Parent = game.StarterGui.METAB HUB.METABIMAGE["METAB 5"]["Button7Script"]
+
+UIAspectRatioConstraint_4.Parent = game.StarterGui.METAB HUB.METABIMAGE["METAB 5"]["Button7Script"]
+UIAspectRatioConstraint_4.AspectRatio = 1.500
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_5.Offset = Vector2.new(-0.400000006, 0)
+UIGradient_5.Rotation = -135
+UIGradient_5.Parent = METAB5
+
+BtnText_5.Name = "BtnText"
+BtnText_5.Parent = UIGradient_5
+BtnText_5.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_5.BackgroundTransparency = 1.000
+BtnText_5.BorderSizePixel = 0
+BtnText_5.Position = UDim2.new(0.501231551, 0, 0.5, 0)
+BtnText_5.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText_5.Visible = false
+BtnText_5.Font = Enum.Font.GothamBlack
+BtnText_5.Text = "CLICK!"
+BtnText_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_5.TextScaled = true
+BtnText_5.TextSize = 14.000
+BtnText_5.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_6.Offset = Vector2.new(-0.400000006, 0)
+UIGradient_6.Rotation = -135
+UIGradient_6.Parent = UIGradient_5
+
+UIAspectRatioConstraint_5.Parent = UIGradient_5
+UIAspectRatioConstraint_5.AspectRatio = 1.500
+
+UIAspectRatioConstraint_6.Parent = METAB5
+UIAspectRatioConstraint_6.AspectRatio = 1.500
+
+BtnText_6.Name = "BtnText"
+BtnText_6.Parent = UIAspectRatioConstraint_6
+BtnText_6.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_6.BackgroundTransparency = 1.000
+BtnText_6.BorderSizePixel = 0
+BtnText_6.Position = UDim2.new(0.501231551, 0, 0.5, 0)
+BtnText_6.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText_6.Visible = false
+BtnText_6.Font = Enum.Font.GothamBlack
+BtnText_6.Text = "CLICK!"
+BtnText_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_6.TextScaled = true
+BtnText_6.TextSize = 14.000
+BtnText_6.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_7.Offset = Vector2.new(-0.400000006, 0)
+UIGradient_7.Rotation = -135
+UIGradient_7.Parent = UIAspectRatioConstraint_6
+
+UIAspectRatioConstraint_7.Parent = UIAspectRatioConstraint_6
+UIAspectRatioConstraint_7.AspectRatio = 1.500
 
 METAB4.Name = "METAB 4"
 METAB4.Parent = METABIMAGE
@@ -199,243 +244,10 @@ METAB4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 METAB4.BackgroundTransparency = 1.000
 METAB4.Position = UDim2.new(0.152380958, 0, 0.571987271, 0)
 METAB4.Size = UDim2.new(0, 122, 0, 83)
-METAB4.Image = "http://www.roblox.com/asset/?id=7795873320"
-METAB4.ImageTransparency = 1.000
-
-LineBottom_3.Name = "LineBottom"
-LineBottom_3.Parent = METAB4
-LineBottom_3.AnchorPoint = Vector2.new(0.5, 0.5)
-LineBottom_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineBottom_3.BackgroundTransparency = 1.000
-LineBottom_3.BorderSizePixel = 0
-LineBottom_3.Position = UDim2.new(0.499500483, 0, 0.999000013, 0)
-LineBottom_3.Size = UDim2.new(0, 0, 0, 1)
-
-LineTop_3.Name = "LineTop"
-LineTop_3.Parent = METAB4
-LineTop_3.AnchorPoint = Vector2.new(0.5, 0.5)
-LineTop_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineTop_3.BackgroundTransparency = 1.000
-LineTop_3.BorderSizePixel = 0
-LineTop_3.Position = UDim2.new(0.499500483, 0, 0.00100000005, 0)
-LineTop_3.Size = UDim2.new(0, 0, 0, 1)
-
-Button8_3.Name = "Button8"
-Button8_3.Parent = METAB4
-Button8_3.AnchorPoint = Vector2.new(0.5, 0.5)
-Button8_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button8_3.BackgroundTransparency = 1.000
-Button8_3.Position = UDim2.new(0.5, 0, 0.500481904, 0)
-Button8_3.Size = UDim2.new(0, 122, 0, 83)
-Button8_3.Image = "http://www.roblox.com/asset/?id=7796814571"
-Button8_3.SliceCenter = Rect.new(4, 4, 252, 252)
-
-BtnText_3.Name = "BtnText"
-BtnText_3.Parent = Button8_3
-BtnText_3.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_3.BackgroundTransparency = 1.000
-BtnText_3.BorderSizePixel = 0
-BtnText_3.Position = UDim2.new(0.501231551, 0, 0.5, 0)
-BtnText_3.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
-BtnText_3.Font = Enum.Font.GothamBlack
-BtnText_3.Text = ""
-BtnText_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_3.TextScaled = true
-BtnText_3.TextSize = 14.000
-BtnText_3.TextTransparency = 1.000
-BtnText_3.TextWrapped = true
-
-UICorner_4.CornerRadius = UDim.new(0, 5)
-UICorner_4.Parent = Button8_3
-
-METAB3.Name = "METAB 3"
-METAB3.Parent = METABIMAGE
-METAB3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-METAB3.BackgroundTransparency = 1.000
-METAB3.Position = UDim2.new(0.64920634, 0, 0.267877638, 0)
-METAB3.Size = UDim2.new(0, 122, 0, 83)
-METAB3.Image = "http://www.roblox.com/asset/?id=7795870859"
-METAB3.ImageTransparency = 1.000
-
-LineBottom_4.Name = "LineBottom"
-LineBottom_4.Parent = METAB3
-LineBottom_4.AnchorPoint = Vector2.new(0.5, 0.5)
-LineBottom_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineBottom_4.BackgroundTransparency = 1.000
-LineBottom_4.BorderSizePixel = 0
-LineBottom_4.Position = UDim2.new(0.499500483, 0, 0.999000013, 0)
-LineBottom_4.Size = UDim2.new(0, 0, 0, 1)
-
-LineTop_4.Name = "LineTop"
-LineTop_4.Parent = METAB3
-LineTop_4.AnchorPoint = Vector2.new(0.5, 0.5)
-LineTop_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineTop_4.BackgroundTransparency = 1.000
-LineTop_4.BorderSizePixel = 0
-LineTop_4.Position = UDim2.new(0.499500483, 0, 0.00100000005, 0)
-LineTop_4.Size = UDim2.new(0, 0, 0, 1)
-
-Button8_4.Name = "Button8"
-Button8_4.Parent = METAB3
-Button8_4.AnchorPoint = Vector2.new(0.5, 0.5)
-Button8_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button8_4.BackgroundTransparency = 1.000
-Button8_4.Position = UDim2.new(0.491803259, 0, 0.5, 0)
-Button8_4.Size = UDim2.new(0, 122, 0, 83)
-Button8_4.Image = "http://www.roblox.com/asset/?id=7796574950"
-Button8_4.SliceCenter = Rect.new(4, 4, 252, 252)
-
-BtnText_4.Name = "BtnText"
-BtnText_4.Parent = Button8_4
-BtnText_4.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_4.BackgroundTransparency = 1.000
-BtnText_4.BorderSizePixel = 0
-BtnText_4.Position = UDim2.new(0.501231551, 0, 0.5, 0)
-BtnText_4.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
-BtnText_4.Font = Enum.Font.GothamBlack
-BtnText_4.Text = ""
-BtnText_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_4.TextScaled = true
-BtnText_4.TextSize = 14.000
-BtnText_4.TextTransparency = 1.000
-BtnText_4.TextWrapped = true
-
-UICorner_5.CornerRadius = UDim.new(0, 5)
-UICorner_5.Parent = Button8_4
-
-METAB2.Name = "METAB 2"
-METAB2.Parent = METABIMAGE
-METAB2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-METAB2.BackgroundTransparency = 1.000
-METAB2.Position = UDim2.new(0.403174639, 0, 0.267877638, 0)
-METAB2.Size = UDim2.new(0, 122, 0, 83)
-METAB2.Image = "http://www.roblox.com/asset/?id=7789016141"
-METAB2.ImageTransparency = 1.000
-
-LineBottom_5.Name = "LineBottom"
-LineBottom_5.Parent = METAB2
-LineBottom_5.AnchorPoint = Vector2.new(0.5, 0.5)
-LineBottom_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineBottom_5.BackgroundTransparency = 1.000
-LineBottom_5.BorderSizePixel = 0
-LineBottom_5.Position = UDim2.new(0.499500483, 0, 0.999000013, 0)
-LineBottom_5.Size = UDim2.new(0, 0, 0, 1)
-
-LineTop_5.Name = "LineTop"
-LineTop_5.Parent = METAB2
-LineTop_5.AnchorPoint = Vector2.new(0.5, 0.5)
-LineTop_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineTop_5.BackgroundTransparency = 1.000
-LineTop_5.BorderSizePixel = 0
-LineTop_5.Position = UDim2.new(0.499500483, 0, 0.00100000005, 0)
-LineTop_5.Size = UDim2.new(0, 0, 0, 1)
-
-Button8_5.Name = "Button8"
-Button8_5.Parent = METAB2
-Button8_5.AnchorPoint = Vector2.new(0.5, 0.5)
-Button8_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button8_5.BackgroundTransparency = 1.000
-Button8_5.Position = UDim2.new(0.5, 0, 0.5, 0)
-Button8_5.Size = UDim2.new(0, 122, 0, 83)
-Button8_5.Image = "http://www.roblox.com/asset/?id=7796601656"
-Button8_5.SliceCenter = Rect.new(4, 4, 252, 252)
-
-BtnText_5.Name = "BtnText"
-BtnText_5.Parent = Button8_5
-BtnText_5.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_5.BackgroundTransparency = 1.000
-BtnText_5.BorderSizePixel = 0
-BtnText_5.Position = UDim2.new(0.501231551, 0, 0.5, 0)
-BtnText_5.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
-BtnText_5.Font = Enum.Font.GothamBlack
-BtnText_5.Text = ""
-BtnText_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_5.TextScaled = true
-BtnText_5.TextSize = 14.000
-BtnText_5.TextTransparency = 1.000
-BtnText_5.TextWrapped = true
-
-UICorner_6.CornerRadius = UDim.new(0, 5)
-UICorner_6.Parent = Button8_5
-
-METAB1.Name = "METAB 1"
-METAB1.Parent = METABIMAGE
-METAB1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-METAB1.BackgroundTransparency = 1.000
-METAB1.Position = UDim2.new(0.152380958, 0, 0.266634673, 0)
-METAB1.Size = UDim2.new(0, 122, 0, 83)
-METAB1.Image = "http://www.roblox.com/asset/?id=7796442266"
-METAB1.ImageTransparency = 1.000
-
-LineBottom_6.Name = "LineBottom"
-LineBottom_6.Parent = METAB1
-LineBottom_6.AnchorPoint = Vector2.new(0.5, 0.5)
-LineBottom_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineBottom_6.BackgroundTransparency = 1.000
-LineBottom_6.BorderSizePixel = 0
-LineBottom_6.Position = UDim2.new(0.499500483, 0, 0.999000013, 0)
-LineBottom_6.Size = UDim2.new(0, 0, 0, 1)
-
-LineTop_6.Name = "LineTop"
-LineTop_6.Parent = METAB1
-LineTop_6.AnchorPoint = Vector2.new(0.5, 0.5)
-LineTop_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LineTop_6.BackgroundTransparency = 1.000
-LineTop_6.BorderSizePixel = 0
-LineTop_6.Position = UDim2.new(0.499500483, 0, 0.00100000005, 0)
-LineTop_6.Size = UDim2.new(0, 0, 0, 1)
-
-Button8_6.Name = "Button8"
-Button8_6.Parent = METAB1
-Button8_6.AnchorPoint = Vector2.new(0.5, 0.5)
-Button8_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button8_6.BackgroundTransparency = 1.000
-Button8_6.Position = UDim2.new(0.5, 0, 0.5, 0)
-Button8_6.Size = UDim2.new(0, 122, 0, 83)
-Button8_6.Image = "http://www.roblox.com/asset/?id=7796442266"
-Button8_6.SliceCenter = Rect.new(4, 4, 252, 252)
-
-BtnText_6.Name = "BtnText"
-BtnText_6.Parent = Button8_6
-BtnText_6.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_6.BackgroundTransparency = 1.000
-BtnText_6.BorderSizePixel = 0
-BtnText_6.Position = UDim2.new(0.501231551, 0, 0.5, 0)
-BtnText_6.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
-BtnText_6.Font = Enum.Font.GothamBlack
-BtnText_6.Text = ""
-BtnText_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_6.TextScaled = true
-BtnText_6.TextSize = 14.000
-BtnText_6.TextTransparency = 1.000
-BtnText_6.TextWrapped = true
-
-UICorner_7.CornerRadius = UDim.new(0, 5)
-UICorner_7.Parent = Button8_6
-
-METABHUB_2.Name = "METAB HUB"
-METABHUB_2.Parent = METABHUB
-METABHUB_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-METABHUB_2.BackgroundTransparency = 1.000
-METABHUB_2.Position = UDim2.new(0.461317271, 0, 0.0225080401, 0)
-METABHUB_2.Size = UDim2.new(0, 125, 0, 34)
-METABHUB_2.Image = "http://www.roblox.com/asset/?id=7803981258"
-METABHUB_2.ScaleType = Enum.ScaleType.Fit
-
-UIAspectRatioConstraint_2.Parent = METABHUB_2
-UIAspectRatioConstraint_2.AspectRatio = 3.042
-
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
-UIGradient_2.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_2.Rotation = -135
-UIGradient_2.Parent = METABHUB_2
+METAB4.Image = "rbxassetid://7796814571"
 
 BtnText_7.Name = "BtnText"
-BtnText_7.Parent = METABHUB_2
+BtnText_7.Parent = METAB4
 BtnText_7.AnchorPoint = Vector2.new(0.5, 0.5)
 BtnText_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_7.BackgroundTransparency = 1.000
@@ -450,9 +262,146 @@ BtnText_7.TextScaled = true
 BtnText_7.TextSize = 14.000
 BtnText_7.TextWrapped = true
 
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_8.Offset = Vector2.new(-0.400000006, 0)
+UIGradient_8.Rotation = -135
+UIGradient_8.Parent = METAB4
+
+UIAspectRatioConstraint_8.Parent = METAB4
+UIAspectRatioConstraint_8.AspectRatio = 1.500
+
+METAB3.Name = "METAB 3"
+METAB3.Parent = METABIMAGE
+METAB3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+METAB3.BackgroundTransparency = 1.000
+METAB3.Position = UDim2.new(0.64920634, 0, 0.267877638, 0)
+METAB3.Size = UDim2.new(0, 122, 0, 83)
+METAB3.Image = "rbxassetid://7796574950"
+
+BtnText_8.Name = "BtnText"
+BtnText_8.Parent = METAB3
+BtnText_8.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_8.BackgroundTransparency = 1.000
+BtnText_8.BorderSizePixel = 0
+BtnText_8.Position = UDim2.new(0.501231551, 0, 0.5, 0)
+BtnText_8.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText_8.Visible = false
+BtnText_8.Font = Enum.Font.GothamBlack
+BtnText_8.Text = "CLICK!"
+BtnText_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_8.TextScaled = true
+BtnText_8.TextSize = 14.000
+BtnText_8.TextWrapped = true
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_9.Offset = Vector2.new(-0.400000006, 0)
+UIGradient_9.Rotation = -135
+UIGradient_9.Parent = METAB3
+
+UIAspectRatioConstraint_9.Parent = METAB3
+UIAspectRatioConstraint_9.AspectRatio = 1.500
+
+METAB2.Name = "METAB 2"
+METAB2.Parent = METABIMAGE
+METAB2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+METAB2.BackgroundTransparency = 1.000
+METAB2.Position = UDim2.new(0.403174639, 0, 0.267877638, 0)
+METAB2.Size = UDim2.new(0, 122, 0, 83)
+METAB2.Image = "rbxassetid://7796601656"
+
+BtnText_9.Name = "BtnText"
+BtnText_9.Parent = METAB2
+BtnText_9.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_9.BackgroundTransparency = 1.000
+BtnText_9.BorderSizePixel = 0
+BtnText_9.Position = UDim2.new(0.501231551, 0, 0.5, 0)
+BtnText_9.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText_9.Visible = false
+BtnText_9.Font = Enum.Font.GothamBlack
+BtnText_9.Text = "CLICK!"
+BtnText_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_9.TextScaled = true
+BtnText_9.TextSize = 14.000
+BtnText_9.TextWrapped = true
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_10.Offset = Vector2.new(-0.400000006, 0)
+UIGradient_10.Rotation = -135
+UIGradient_10.Parent = METAB2
+
+UIAspectRatioConstraint_10.Parent = METAB2
+UIAspectRatioConstraint_10.AspectRatio = 1.500
+
+METAB1.Name = "METAB 1"
+METAB1.Parent = METABIMAGE
+METAB1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+METAB1.BackgroundTransparency = 1.000
+METAB1.Position = UDim2.new(0.152380958, 0, 0.266634673, 0)
+METAB1.Size = UDim2.new(0, 122, 0, 83)
+METAB1.Image = "http://www.roblox.com/asset/?id=7796442266"
+
+UIAspectRatioConstraint_11.Parent = METAB1
+UIAspectRatioConstraint_11.AspectRatio = 1.500
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_11.Offset = Vector2.new(-0.400000006, 0)
+UIGradient_11.Rotation = -135
+UIGradient_11.Parent = METAB1
+
+BtnText_10.Name = "BtnText"
+BtnText_10.Parent = METAB1
+BtnText_10.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_10.BackgroundTransparency = 1.000
+BtnText_10.BorderSizePixel = 0
+BtnText_10.Position = UDim2.new(0.501231551, 0, 0.5, 0)
+BtnText_10.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText_10.Visible = false
+BtnText_10.Font = Enum.Font.GothamBlack
+BtnText_10.Text = "CLICK!"
+BtnText_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_10.TextScaled = true
+BtnText_10.TextSize = 14.000
+BtnText_10.TextWrapped = true
+
+METABHUB_2.Name = "METAB HUB"
+METABHUB_2.Parent = METABHUB
+METABHUB_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+METABHUB_2.BackgroundTransparency = 1.000
+METABHUB_2.Position = UDim2.new(0.470514834, 0, 0.915016174, 0)
+METABHUB_2.Size = UDim2.new(0, 125, 0, 34)
+METABHUB_2.Image = "http://www.roblox.com/asset/?id=7803981258"
+METABHUB_2.ScaleType = Enum.ScaleType.Fit
+
+UIAspectRatioConstraint_12.Parent = METABHUB_2
+UIAspectRatioConstraint_12.AspectRatio = 3.042
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_12.Offset = Vector2.new(-0.349999994, 0)
+UIGradient_12.Rotation = -135
+UIGradient_12.Parent = METABHUB_2
+
+BtnText_11.Name = "BtnText"
+BtnText_11.Parent = METABHUB_2
+BtnText_11.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_11.BackgroundTransparency = 1.000
+BtnText_11.BorderSizePixel = 0
+BtnText_11.Position = UDim2.new(0.501231551, 0, 0.5, 0)
+BtnText_11.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText_11.Visible = false
+BtnText_11.Font = Enum.Font.GothamBlack
+BtnText_11.Text = "CLICK!"
+BtnText_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_11.TextScaled = true
+BtnText_11.TextSize = 14.000
+BtnText_11.TextWrapped = true
+
 -- Scripts:
 
-local function ETCSX_fake_script() -- METABIMAGE.LocalScript 
+local function BGTIWQ_fake_script() -- METABIMAGE.LocalScript 
 	local script = Instance.new('LocalScript', METABIMAGE)
 
 	
@@ -530,8 +479,8 @@ local function ETCSX_fake_script() -- METABIMAGE.LocalScript
 	
 	
 end
-coroutine.wrap(ETCSX_fake_script)()
-local function DZAFG_fake_script() -- METABIMAGE.LocalScript 
+coroutine.wrap(BGTIWQ_fake_script)()
+local function IWVBG_fake_script() -- METABIMAGE.LocalScript 
 	local script = Instance.new('LocalScript', METABIMAGE)
 
 	while true do
@@ -549,16 +498,16 @@ local function DZAFG_fake_script() -- METABIMAGE.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(DZAFG_fake_script)()
-local function OGMOW_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(IWVBG_fake_script)()
+local function ZFEQMKL_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(OGMOW_fake_script)()
-local function QRVH_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(ZFEQMKL_fake_script)()
+local function YSKLZ_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -601,93 +550,9 @@ local function QRVH_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(QRVH_fake_script)()
-local function JUATUUF_fake_script() -- Button8.Button8Script 
-	local script = Instance.new('LocalScript', Button8)
-
-	local btn = script.Parent
-	local btnText = btn:WaitForChild("BtnText")
-	
-	local btnHoverArea = btn.Parent
-	
-	local lineTop = btnHoverArea:WaitForChild("LineTop")
-	local lineBottom = btnHoverArea:WaitForChild("LineBottom")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local btnSizeInTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(0.001, 0, 1, 0), ImageTransparency = 1})
-	local btnSizeOutTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(1, 0, 1, 0), ImageTransparency = 0})
-	
-	local textTransparentTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 1}) 
-	local textOpaqueTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 0})
-	
-	local bottomLineTweenOut = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local bottomLineTweenIn = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
-	local topLineTweenOut = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local topLineTweenIn = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
-	
-	
-	local function hoverTween()
-		
-		btnSizeOutTween:Cancel()
-		textOpaqueTween:Cancel()
-		bottomLineTweenIn:Cancel()
-		topLineTweenIn:Cancel()
-		
-		btnSizeInTween:Play()
-		textTransparentTween:Play()
-		bottomLineTweenOut:Play()
-		topLineTweenOut:Play()
-	end
-	
-	local function hoverTweenReverse()
-	
-		btnSizeInTween:Cancel()
-		textTransparentTween:Cancel()
-		bottomLineTweenOut:Cancel()
-		topLineTweenOut:Cancel()
-		
-		btnSizeOutTween:Play()
-		textOpaqueTween:Play()
-		bottomLineTweenIn:Play()
-		topLineTweenIn:Play()
-	end
-	
-	
-	btnHoverArea.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		hoverTween()
-	end)
-	
-	btnHoverArea.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		hoverTweenReverse()
-	end)
-	
-	btnHoverArea.MouseButton1Down:Connect(function()
-		
-		hoverTweenReverse()
-	end)
-	
-	btnHoverArea.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			hoverTweenReverse()
-		else
-			hoverTween()
-		end
-	end)
-end
-coroutine.wrap(JUATUUF_fake_script)()
-local function EAVKL_fake_script() -- Button8.LocalScript 
-	local script = Instance.new('LocalScript', Button8)
+coroutine.wrap(YSKLZ_fake_script)()
+local function VPEF_fake_script() -- METAB6.LocalScript 
+	local script = Instance.new('LocalScript', METAB6)
 
 	
 	script.Parent.MouseButton1Down:connect(function()
@@ -696,93 +561,53 @@ local function EAVKL_fake_script() -- Button8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EAVKL_fake_script)()
-local function DJXP_fake_script() -- Button8_2.Button8Script 
-	local script = Instance.new('LocalScript', Button8_2)
+coroutine.wrap(VPEF_fake_script)()
+local function SJYXGQG_fake_script() -- METAB6.Button7Script 
+	local script = Instance.new('LocalScript', METAB6)
 
 	local btn = script.Parent
-	local btnText = btn:WaitForChild("BtnText")
-	
-	local btnHoverArea = btn.Parent
-	
-	local lineTop = btnHoverArea:WaitForChild("LineTop")
-	local lineBottom = btnHoverArea:WaitForChild("LineBottom")
+	local uiGradient = btn:WaitForChild("UIGradient")
 	
 	local isHovering = false
 	
 	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
 	
-	local btnSizeInTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(0.001, 0, 1, 0), ImageTransparency = 1})
-	local btnSizeOutTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(1, 0, 1, 0), ImageTransparency = 0})
-	
-	local textTransparentTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 1}) 
-	local textOpaqueTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 0})
-	
-	local bottomLineTweenOut = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local bottomLineTweenIn = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
-	local topLineTweenOut = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local topLineTweenIn = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
 	
 	
-	local function hoverTween()
-		
-		btnSizeOutTween:Cancel()
-		textOpaqueTween:Cancel()
-		bottomLineTweenIn:Cancel()
-		topLineTweenIn:Cancel()
-		
-		btnSizeInTween:Play()
-		textTransparentTween:Play()
-		bottomLineTweenOut:Play()
-		topLineTweenOut:Play()
-	end
-	
-	local function hoverTweenReverse()
-	
-		btnSizeInTween:Cancel()
-		textTransparentTween:Cancel()
-		bottomLineTweenOut:Cancel()
-		topLineTweenOut:Cancel()
-		
-		btnSizeOutTween:Play()
-		textOpaqueTween:Play()
-		bottomLineTweenIn:Play()
-		topLineTweenIn:Play()
-	end
-	
-	
-	btnHoverArea.MouseEnter:Connect(function()
+	btn.MouseEnter:Connect(function()
 		
 		isHovering = true
 		
-		hoverTween()
+		gradientAddTween:Play()
 	end)
 	
-	btnHoverArea.MouseLeave:Connect(function()
+	btn.MouseLeave:Connect(function()
 		
 		isHovering = false
 		
-		hoverTweenReverse()
+		gradientRestoreTween:Play()
 	end)
 	
-	btnHoverArea.MouseButton1Down:Connect(function()
+	btn.MouseButton1Down:Connect(function()
 		
-		hoverTweenReverse()
+		gradientRestoreTween:Play()
 	end)
 	
-	btnHoverArea.MouseButton1Up:Connect(function()
+	btn.MouseButton1Up:Connect(function()
 		
 		if not isHovering then
-			hoverTweenReverse()
+			gradientRestoreTween:Play()
 		else
-			hoverTween()
+			gradientAddTween:Play()
 		end
 	end)
 end
-coroutine.wrap(DJXP_fake_script)()
-local function RIAGCU_fake_script() -- Button8_2.LocalScript 
-	local script = Instance.new('LocalScript', Button8_2)
+coroutine.wrap(SJYXGQG_fake_script)()
+local function XEPCSLL_fake_script() -- METAB5.LocalScript 
+	local script = Instance.new('LocalScript', METAB5)
 
 	
 	script.Parent.MouseButton1Down:connect(function()
@@ -791,93 +616,229 @@ local function RIAGCU_fake_script() -- Button8_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RIAGCU_fake_script)()
-local function ERLX_fake_script() -- Button8_3.Button8Script 
-	local script = Instance.new('LocalScript', Button8_3)
+coroutine.wrap(XEPCSLL_fake_script)()
+local function UWHPPVH_fake_script() -- BtnText_2.Button7Script 
+	local script = Instance.new('LocalScript', BtnText_2)
 
 	local btn = script.Parent
-	local btnText = btn:WaitForChild("BtnText")
-	
-	local btnHoverArea = btn.Parent
-	
-	local lineTop = btnHoverArea:WaitForChild("LineTop")
-	local lineBottom = btnHoverArea:WaitForChild("LineBottom")
+	local uiGradient = btn:WaitForChild("UIGradient")
 	
 	local isHovering = false
 	
 	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
 	
-	local btnSizeInTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(0.001, 0, 1, 0), ImageTransparency = 1})
-	local btnSizeOutTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(1, 0, 1, 0), ImageTransparency = 0})
-	
-	local textTransparentTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 1}) 
-	local textOpaqueTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 0})
-	
-	local bottomLineTweenOut = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local bottomLineTweenIn = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
-	local topLineTweenOut = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local topLineTweenIn = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
 	
 	
-	local function hoverTween()
-		
-		btnSizeOutTween:Cancel()
-		textOpaqueTween:Cancel()
-		bottomLineTweenIn:Cancel()
-		topLineTweenIn:Cancel()
-		
-		btnSizeInTween:Play()
-		textTransparentTween:Play()
-		bottomLineTweenOut:Play()
-		topLineTweenOut:Play()
-	end
-	
-	local function hoverTweenReverse()
-	
-		btnSizeInTween:Cancel()
-		textTransparentTween:Cancel()
-		bottomLineTweenOut:Cancel()
-		topLineTweenOut:Cancel()
-		
-		btnSizeOutTween:Play()
-		textOpaqueTween:Play()
-		bottomLineTweenIn:Play()
-		topLineTweenIn:Play()
-	end
-	
-	
-	btnHoverArea.MouseEnter:Connect(function()
+	btn.MouseEnter:Connect(function()
 		
 		isHovering = true
 		
-		hoverTween()
+		gradientAddTween:Play()
 	end)
 	
-	btnHoverArea.MouseLeave:Connect(function()
+	btn.MouseLeave:Connect(function()
 		
 		isHovering = false
 		
-		hoverTweenReverse()
+		gradientRestoreTween:Play()
 	end)
 	
-	btnHoverArea.MouseButton1Down:Connect(function()
+	btn.MouseButton1Down:Connect(function()
 		
-		hoverTweenReverse()
+		gradientRestoreTween:Play()
 	end)
 	
-	btnHoverArea.MouseButton1Up:Connect(function()
+	btn.MouseButton1Up:Connect(function()
 		
 		if not isHovering then
-			hoverTweenReverse()
+			gradientRestoreTween:Play()
 		else
-			hoverTween()
+			gradientAddTween:Play()
 		end
 	end)
 end
-coroutine.wrap(ERLX_fake_script)()
-local function HULYM_fake_script() -- Button8_3.LocalScript 
-	local script = Instance.new('LocalScript', Button8_3)
+coroutine.wrap(UWHPPVH_fake_script)()
+local function NPGQVN_fake_script() -- METAB5.Button7Script 
+	local script = Instance.new('LocalScript', METAB5)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientAddTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientAddTween:Play()
+		end
+	end)
+end
+coroutine.wrap(NPGQVN_fake_script)()
+local function LYSPY_fake_script() -- nil.Button7Script 
+	local script = Instance.new('LocalScript', nil)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientAddTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientAddTween:Play()
+		end
+	end)
+end
+coroutine.wrap(LYSPY_fake_script)()
+local function YGCBY_fake_script() -- UIGradient_5.Button7Script 
+	local script = Instance.new('LocalScript', UIGradient_5)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientAddTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientAddTween:Play()
+		end
+	end)
+end
+coroutine.wrap(YGCBY_fake_script)()
+local function KCSKN_fake_script() -- UIAspectRatioConstraint_6.Button7Script 
+	local script = Instance.new('LocalScript', UIAspectRatioConstraint_6)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientAddTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientAddTween:Play()
+		end
+	end)
+end
+coroutine.wrap(KCSKN_fake_script)()
+local function WPIFN_fake_script() -- METAB4.LocalScript 
+	local script = Instance.new('LocalScript', METAB4)
 
 	script.Parent.MouseButton1Down:connect(function()
 		
@@ -886,93 +847,53 @@ local function HULYM_fake_script() -- Button8_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HULYM_fake_script)()
-local function PCBFH_fake_script() -- Button8_4.Button8Script 
-	local script = Instance.new('LocalScript', Button8_4)
+coroutine.wrap(WPIFN_fake_script)()
+local function QSIB_fake_script() -- METAB4.Button7Script 
+	local script = Instance.new('LocalScript', METAB4)
 
 	local btn = script.Parent
-	local btnText = btn:WaitForChild("BtnText")
-	
-	local btnHoverArea = btn.Parent
-	
-	local lineTop = btnHoverArea:WaitForChild("LineTop")
-	local lineBottom = btnHoverArea:WaitForChild("LineBottom")
+	local uiGradient = btn:WaitForChild("UIGradient")
 	
 	local isHovering = false
 	
 	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
 	
-	local btnSizeInTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(0.001, 0, 1, 0), ImageTransparency = 1})
-	local btnSizeOutTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(1, 0, 1, 0), ImageTransparency = 0})
-	
-	local textTransparentTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 1}) 
-	local textOpaqueTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 0})
-	
-	local bottomLineTweenOut = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local bottomLineTweenIn = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
-	local topLineTweenOut = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local topLineTweenIn = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
 	
 	
-	local function hoverTween()
-		
-		btnSizeOutTween:Cancel()
-		textOpaqueTween:Cancel()
-		bottomLineTweenIn:Cancel()
-		topLineTweenIn:Cancel()
-		
-		btnSizeInTween:Play()
-		textTransparentTween:Play()
-		bottomLineTweenOut:Play()
-		topLineTweenOut:Play()
-	end
-	
-	local function hoverTweenReverse()
-	
-		btnSizeInTween:Cancel()
-		textTransparentTween:Cancel()
-		bottomLineTweenOut:Cancel()
-		topLineTweenOut:Cancel()
-		
-		btnSizeOutTween:Play()
-		textOpaqueTween:Play()
-		bottomLineTweenIn:Play()
-		topLineTweenIn:Play()
-	end
-	
-	
-	btnHoverArea.MouseEnter:Connect(function()
+	btn.MouseEnter:Connect(function()
 		
 		isHovering = true
 		
-		hoverTween()
+		gradientAddTween:Play()
 	end)
 	
-	btnHoverArea.MouseLeave:Connect(function()
+	btn.MouseLeave:Connect(function()
 		
 		isHovering = false
 		
-		hoverTweenReverse()
+		gradientRestoreTween:Play()
 	end)
 	
-	btnHoverArea.MouseButton1Down:Connect(function()
+	btn.MouseButton1Down:Connect(function()
 		
-		hoverTweenReverse()
+		gradientRestoreTween:Play()
 	end)
 	
-	btnHoverArea.MouseButton1Up:Connect(function()
+	btn.MouseButton1Up:Connect(function()
 		
 		if not isHovering then
-			hoverTweenReverse()
+			gradientRestoreTween:Play()
 		else
-			hoverTween()
+			gradientAddTween:Play()
 		end
 	end)
 end
-coroutine.wrap(PCBFH_fake_script)()
-local function IKVLVFA_fake_script() -- Button8_4.LocalScript 
-	local script = Instance.new('LocalScript', Button8_4)
+coroutine.wrap(QSIB_fake_script)()
+local function FQENVW_fake_script() -- METAB3.LocalScript 
+	local script = Instance.new('LocalScript', METAB3)
 
 	
 	script.Parent.MouseButton1Down:connect(function()
@@ -981,93 +902,53 @@ local function IKVLVFA_fake_script() -- Button8_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IKVLVFA_fake_script)()
-local function YTIBKDU_fake_script() -- Button8_5.Button8Script 
-	local script = Instance.new('LocalScript', Button8_5)
+coroutine.wrap(FQENVW_fake_script)()
+local function DBKWD_fake_script() -- METAB3.Button7Script 
+	local script = Instance.new('LocalScript', METAB3)
 
 	local btn = script.Parent
-	local btnText = btn:WaitForChild("BtnText")
-	
-	local btnHoverArea = btn.Parent
-	
-	local lineTop = btnHoverArea:WaitForChild("LineTop")
-	local lineBottom = btnHoverArea:WaitForChild("LineBottom")
+	local uiGradient = btn:WaitForChild("UIGradient")
 	
 	local isHovering = false
 	
 	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
 	
-	local btnSizeInTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(0.001, 0, 1, 0), ImageTransparency = 1})
-	local btnSizeOutTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(1, 0, 1, 0), ImageTransparency = 0})
-	
-	local textTransparentTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 1}) 
-	local textOpaqueTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 0})
-	
-	local bottomLineTweenOut = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local bottomLineTweenIn = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
-	local topLineTweenOut = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local topLineTweenIn = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
 	
 	
-	local function hoverTween()
-		
-		btnSizeOutTween:Cancel()
-		textOpaqueTween:Cancel()
-		bottomLineTweenIn:Cancel()
-		topLineTweenIn:Cancel()
-		
-		btnSizeInTween:Play()
-		textTransparentTween:Play()
-		bottomLineTweenOut:Play()
-		topLineTweenOut:Play()
-	end
-	
-	local function hoverTweenReverse()
-	
-		btnSizeInTween:Cancel()
-		textTransparentTween:Cancel()
-		bottomLineTweenOut:Cancel()
-		topLineTweenOut:Cancel()
-		
-		btnSizeOutTween:Play()
-		textOpaqueTween:Play()
-		bottomLineTweenIn:Play()
-		topLineTweenIn:Play()
-	end
-	
-	
-	btnHoverArea.MouseEnter:Connect(function()
+	btn.MouseEnter:Connect(function()
 		
 		isHovering = true
 		
-		hoverTween()
+		gradientAddTween:Play()
 	end)
 	
-	btnHoverArea.MouseLeave:Connect(function()
+	btn.MouseLeave:Connect(function()
 		
 		isHovering = false
 		
-		hoverTweenReverse()
+		gradientRestoreTween:Play()
 	end)
 	
-	btnHoverArea.MouseButton1Down:Connect(function()
+	btn.MouseButton1Down:Connect(function()
 		
-		hoverTweenReverse()
+		gradientRestoreTween:Play()
 	end)
 	
-	btnHoverArea.MouseButton1Up:Connect(function()
+	btn.MouseButton1Up:Connect(function()
 		
 		if not isHovering then
-			hoverTweenReverse()
+			gradientRestoreTween:Play()
 		else
-			hoverTween()
+			gradientAddTween:Play()
 		end
 	end)
 end
-coroutine.wrap(YTIBKDU_fake_script)()
-local function LYSS_fake_script() -- Button8_5.LocalScript 
-	local script = Instance.new('LocalScript', Button8_5)
+coroutine.wrap(DBKWD_fake_script)()
+local function SJPVGC_fake_script() -- METAB2.LocalScript 
+	local script = Instance.new('LocalScript', METAB2)
 
 	
 	script.Parent.MouseButton1Down:connect(function()
@@ -1076,93 +957,97 @@ local function LYSS_fake_script() -- Button8_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LYSS_fake_script)()
-local function CLBCVX_fake_script() -- Button8_6.Button8Script 
-	local script = Instance.new('LocalScript', Button8_6)
+coroutine.wrap(SJPVGC_fake_script)()
+local function MAZJ_fake_script() -- METAB2.Button7Script 
+	local script = Instance.new('LocalScript', METAB2)
 
 	local btn = script.Parent
-	local btnText = btn:WaitForChild("BtnText")
-	
-	local btnHoverArea = btn.Parent
-	
-	local lineTop = btnHoverArea:WaitForChild("LineTop")
-	local lineBottom = btnHoverArea:WaitForChild("LineBottom")
+	local uiGradient = btn:WaitForChild("UIGradient")
 	
 	local isHovering = false
 	
 	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
 	
-	local btnSizeInTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(0.001, 0, 1, 0), ImageTransparency = 1})
-	local btnSizeOutTween = tweenService:Create(btn, tweenInfo, {Size = UDim2.new(1, 0, 1, 0), ImageTransparency = 0})
-	
-	local textTransparentTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 1}) 
-	local textOpaqueTween = tweenService:Create(btnText, tweenInfo, {TextTransparency = 0})
-	
-	local bottomLineTweenOut = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local bottomLineTweenIn = tweenService:Create(lineBottom, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
-	local topLineTweenOut = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(1, 0, 0, 1), BackgroundTransparency = 0})
-	local topLineTweenIn = tweenService:Create(lineTop, tweenInfo, {Size = UDim2.new(0, 0, 0, 1), BackgroundTransparency = 1})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
 	
 	
-	local function hoverTween()
-		
-		btnSizeOutTween:Cancel()
-		textOpaqueTween:Cancel()
-		bottomLineTweenIn:Cancel()
-		topLineTweenIn:Cancel()
-		
-		btnSizeInTween:Play()
-		textTransparentTween:Play()
-		bottomLineTweenOut:Play()
-		topLineTweenOut:Play()
-	end
-	
-	local function hoverTweenReverse()
-	
-		btnSizeInTween:Cancel()
-		textTransparentTween:Cancel()
-		bottomLineTweenOut:Cancel()
-		topLineTweenOut:Cancel()
-		
-		btnSizeOutTween:Play()
-		textOpaqueTween:Play()
-		bottomLineTweenIn:Play()
-		topLineTweenIn:Play()
-	end
-	
-	
-	btnHoverArea.MouseEnter:Connect(function()
+	btn.MouseEnter:Connect(function()
 		
 		isHovering = true
 		
-		hoverTween()
+		gradientAddTween:Play()
 	end)
 	
-	btnHoverArea.MouseLeave:Connect(function()
+	btn.MouseLeave:Connect(function()
 		
 		isHovering = false
 		
-		hoverTweenReverse()
+		gradientRestoreTween:Play()
 	end)
 	
-	btnHoverArea.MouseButton1Down:Connect(function()
+	btn.MouseButton1Down:Connect(function()
 		
-		hoverTweenReverse()
+		gradientRestoreTween:Play()
 	end)
 	
-	btnHoverArea.MouseButton1Up:Connect(function()
+	btn.MouseButton1Up:Connect(function()
 		
 		if not isHovering then
-			hoverTweenReverse()
+			gradientRestoreTween:Play()
 		else
-			hoverTween()
+			gradientAddTween:Play()
 		end
 	end)
 end
-coroutine.wrap(CLBCVX_fake_script)()
-local function VCWH_fake_script() -- Button8_6.LocalScript 
-	local script = Instance.new('LocalScript', Button8_6)
+coroutine.wrap(MAZJ_fake_script)()
+local function KWXZEA_fake_script() -- METAB1.Button7Script 
+	local script = Instance.new('LocalScript', METAB1)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientAddTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientAddTween:Play()
+		end
+	end)
+end
+coroutine.wrap(KWXZEA_fake_script)()
+local function KEHSBAQ_fake_script() -- METAB1.LocalScript 
+	local script = Instance.new('LocalScript', METAB1)
 
 	
 	script.Parent.MouseButton1Down:connect(function()
@@ -1171,8 +1056,8 @@ local function VCWH_fake_script() -- Button8_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VCWH_fake_script)()
-local function TKHBA_fake_script() -- METABHUB_2.LocalScript 
+coroutine.wrap(KEHSBAQ_fake_script)()
+local function EXZQ_fake_script() -- METABHUB_2.LocalScript 
 	local script = Instance.new('LocalScript', METABHUB_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1180,8 +1065,8 @@ local function TKHBA_fake_script() -- METABHUB_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(TKHBA_fake_script)()
-local function UGJFDB_fake_script() -- METABHUB_2.Button7Script 
+coroutine.wrap(EXZQ_fake_script)()
+local function OYVZJXL_fake_script() -- METABHUB_2.Button7Script 
 	local script = Instance.new('LocalScript', METABHUB_2)
 
 	local btn = script.Parent
@@ -1224,4 +1109,4 @@ local function UGJFDB_fake_script() -- METABHUB_2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(UGJFDB_fake_script)()
+coroutine.wrap(OYVZJXL_fake_script)()
